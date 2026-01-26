@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+a.active hr{
+    display: block;
+}
+@layer base {
+    body {
+        @apply bg-slate-100;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
